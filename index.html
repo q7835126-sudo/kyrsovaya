@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лицензионное ПО для учёбы и работы — KIBERone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="header__logo" aria-label="KIBERone — на главную">
+        <img src="icons/logo.svg" alt="KIBERone">
+      </a>
+
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__links">
+          <li><a href="#" class="nav__link">Главная</a></li>
+          <li><a href="#catalog" class="nav__link">Каталог ПО</a></li>
+          <li><a href="#how" class="nav__link">Как купить</a></li>
+        </ul>
+        <a href="#order" class="btn btn--yellow nav__btn">Оформить заказ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <nav class="breadcrumbs" aria-label="Хлебные крошки">
+            <a href="#">Главная</a> / <span>Лицензионное ПО</span>
+          </nav>
+
+          <h1 class="hero__title">Лицензионное ПО<br>для учёбы и работы</h1>
+
+          <p class="hero__text">
+            Подберите программы для дома, обучения и бизнеса.
+            Поможем разобраться в лицензиях и оформить заказ.
+          </p>
+
+          <a href="#catalog" class="btn btn--cyan hero__btn">Выбрать программу</a>
+        </div>
+
+        <div class="hero__media">
+          <div class="hero__photo">
+            <img src="img/Обучение с KIBERone.png" alt="Ребёнок и взрослый за ноутбуком">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="catalog" id="catalog">
+      <div class="container">
+        <h2 class="section-title">Выберите программное обеспечение</h2>
+        <p class="section-subtitle">Подберём редакцию, срок действия и количество устройств под вашу задачу.</p>
+
+        <div class="cards">
+          <article class="card">
+            <span class="card__num">01</span>
+            <h3 class="card__category">Операционные системы</h3>
+            <p class="card__title">Windows 11</p>
+            <p class="card__desc">Для домашнего компьютера<br>и рабочих задач.</p>
+            <p class="card__note">Редакции Home и Pro</p>
+            <a href="#order" class="btn btn--yellow card__btn">Выбрать · по запросу</a>
+          </article>
+
+          <article class="card">
+            <span class="card__num">02</span>
+            <h3 class="card__category">Офисные программы</h3>
+            <p class="card__title">Microsoft Office</p>
+            <p class="card__desc">Документы, таблицы<br>и презентации.</p>
+            <p class="card__note">Для дома и бизнеса</p>
+            <a href="#order" class="btn btn--yellow card__btn">Выбрать · по запросу</a>
+          </article>
+
+          <article class="card">
+            <span class="card__num">03</span>
+            <h3 class="card__category">Защита устройств</h3>
+            <p class="card__title">Антивирусы</p>
+            <p class="card__desc">Защита компьютера<br>и персональных данных.</p>
+            <p class="card__note">Для одного или нескольких устройств</p>
+            <a href="#order" class="btn btn--yellow card__btn">Выбрать · по запросу</a>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="how" id="how">
+      <div class="container">
+        <h2 class="section-title section-title--left">Как купить лицензию</h2>
+
+        <ol class="steps">
+          <li class="step">
+            <span class="step__num">01</span>
+            <div>
+              <h3 class="step__title">Выберите ПО</h3>
+              <p class="step__text">Укажите программу и количество устройств в заявке.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step__num">02</span>
+            <div>
+              <h3 class="step__title">Согласуйте заказ</h3>
+              <p class="step__text">Уточним тип лицензии, стоимость и доступные способы оплаты.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step__num">03</span>
+            <div>
+              <h3 class="step__title">Получите лицензию</h3>
+              <p class="step__text">После оплаты отправим данные для активации и инструкцию.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+    <section class="order" id="order">
+      <div class="container order__inner">
+        <div class="order__info">
+          <h2 class="section-title section-title--left">Оформите заказ</h2>
+          <p class="order__text">
+            Оставьте заявку — поможем выбрать подходящую лицензию и уточним итоговую стоимость перед оплатой.
+          </p>
+
+          <h3 class="order__subtitle">Стоимость — по запросу</h3>
+          <p class="order__small">Зависит от программы, редакции, срока действия и количества устройств.</p>
+
+          <p class="order__help">Нужна помощь с выбором?</p>
+          <a href="tel:+74956476627" class="order__phone">+7 (495) 647-66-27</a>
+        </div>
+
+        <form class="form" id="order-form" novalidate>
+          <div class="field field--full">
+            <label for="program">Программа</label>
+            <input type="text" id="program" name="program" placeholder="Название программы или задача">
+          </div>
+
+          <div class="form__row">
+            <div class="field">
+              <label for="devices">Количество устройств</label>
+              <input type="number" id="devices" name="devices" value="1" min="1" max="100">
+            </div>
+            <div class="field">
+              <label for="term">Срок лицензии</label>
+              <input type="text" id="term" name="term" placeholder="Уточнить при заказе">
+            </div>
+          </div>
+
+          <div class="form__row">
+            <div class="field">
+              <label for="name">Ваше имя</label>
+              <input type="text" id="name" name="name" placeholder="Как к вам обращаться" required>
+              <span class="form__error"></span>
+            </div>
+            <div class="field">
+              <label for="contact">E-mail или телефон *</label>
+              <input type="text" id="contact" name="contact" placeholder="Для связи по заказу" required>
+              <span class="form__error"></span>
+            </div>
+          </div>
+
+          <label class="checkbox">
+            <input type="checkbox" name="policy" required>
+            <span>Согласен на обработку персональных данных для оформления заказа.</span>
+          </label>
+          <span class="form__error form__error--policy"></span>
+
+          <button type="submit" class="btn btn--yellow btn--block">Отправить заявку на покупку</button>
+          <p class="form__note">Заявка не обязывает к оплате.</p>
+          <p class="form__success" role="status" hidden>Спасибо! Мы свяжемся с вами.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__col footer__col--contacts">
+        <p class="footer__title">Контакты:</p>
+        <a href="tel:+74956476627" class="footer__link">+7 (495) 647-66-27</a>
+        <a href="mailto:s.posad@kiber-one.com" class="footer__link">s.posad@kiber-one.com</a>
+        <img src="icons/logo.svg" alt="KIBERone" class="footer__logo">
+      </div>
+
+      <div class="footer__col footer__col--address">
+        <p class="footer__title">Адрес:</p>
+        <p class="footer__text">
+          г. Сергиев Посад,<br>
+          ул. Пионерская, д.6,<br>
+          офис 306А<br>
+          БЦ "Александрийский дом"
+        </p>
+      </div>
+
+      <div class="footer__col footer__col--social">
+        <p class="footer__title footer__title--social">Наши соцсети:</p>
+        <div class="socials">
+          <a href="#" class="social" aria-label="VK"><img src="icons/vk.svg" alt=""></a>
+          <a href="#" class="social" aria-label="Telegram"><img src="icons/tg.svg" alt=""></a>
+          <a href="#" class="social" aria-label="WhatsApp"><img src="icons/whatsapp.svg" alt=""></a>
+          <a href="#" class="social" aria-label="Max"><img src="icons/max.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
